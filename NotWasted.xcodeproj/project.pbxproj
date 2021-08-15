@@ -7,19 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		842D409326A11975006E050B /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842D409226A11975006E050B /* RegistrationViewModel.swift */; };
+		842D409626A12BD8006E050B /* LandingPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842D409526A12BD8006E050B /* LandingPageView.swift */; };
 		8496959E2675AF440048623D /* NotWastedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496959D2675AF440048623D /* NotWastedApp.swift */; };
-		849695A02675AF440048623D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496959F2675AF440048623D /* ContentView.swift */; };
 		849695A22675AF490048623D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849695A12675AF490048623D /* Assets.xcassets */; };
 		849695A52675AF490048623D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849695A42675AF490048623D /* Preview Assets.xcassets */; };
+		849695B8268A8F500048623D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849695B7268A8F4F0048623D /* HomeView.swift */; };
+		849695BE268B286F0048623D /* PantryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849695BD268B286F0048623D /* PantryView.swift */; };
+		849695C1268B288A0048623D /* LogDishView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849695C0268B288A0048623D /* LogDishView.swift */; };
+		849695C4268B28A40048623D /* ScanReceiptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849695C3268B28A40048623D /* ScanReceiptView.swift */; };
+		849695C7268B290E0048623D /* RecipesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849695C6268B290E0048623D /* RecipesView.swift */; };
+		849695CA268B291A0048623D /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849695C9268B291A0048623D /* AccountView.swift */; };
+		849695CD268B293B0048623D /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849695CC268B293B0048623D /* UserModel.swift */; };
+		849695D0268C77540048623D /* UserAuthServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849695CF268C77530048623D /* UserAuthServices.swift */; };
+		849695D3268C99FA0048623D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849695D2268C99FA0048623D /* LoginView.swift */; };
+		849695D6268CD5730048623D /* PantryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849695D5268CD5720048623D /* PantryModel.swift */; };
+		849695D9268CED870048623D /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849695D8268CED860048623D /* LoginViewModel.swift */; };
+		84DBD4D826C95ACC00F8EF1C /* ReceiptExtractionServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DBD4D726C95ACC00F8EF1C /* ReceiptExtractionServices.swift */; };
+		84DBD4DB26C95B9C00F8EF1C /* ImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DBD4DA26C95B9C00F8EF1C /* ImageModel.swift */; };
+		84DBD4DE26C95C2F00F8EF1C /* ScanReceiptViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DBD4DD26C95C2F00F8EF1C /* ScanReceiptViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		842D409226A11975006E050B /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
+		842D409526A12BD8006E050B /* LandingPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPageView.swift; sourceTree = "<group>"; };
 		8496959A2675AF440048623D /* NotWasted.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotWasted.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8496959D2675AF440048623D /* NotWastedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotWastedApp.swift; sourceTree = "<group>"; };
-		8496959F2675AF440048623D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		849695A12675AF490048623D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		849695A42675AF490048623D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		849695A62675AF490048623D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		849695B7268A8F4F0048623D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		849695BD268B286F0048623D /* PantryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PantryView.swift; sourceTree = "<group>"; };
+		849695C0268B288A0048623D /* LogDishView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogDishView.swift; sourceTree = "<group>"; };
+		849695C3268B28A40048623D /* ScanReceiptView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanReceiptView.swift; sourceTree = "<group>"; };
+		849695C6268B290E0048623D /* RecipesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesView.swift; sourceTree = "<group>"; };
+		849695C9268B291A0048623D /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		849695CC268B293B0048623D /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		849695CF268C77530048623D /* UserAuthServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthServices.swift; sourceTree = "<group>"; };
+		849695D2268C99FA0048623D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		849695D5268CD5720048623D /* PantryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PantryModel.swift; sourceTree = "<group>"; };
+		849695D8268CED860048623D /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		84DBD4D726C95ACC00F8EF1C /* ReceiptExtractionServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptExtractionServices.swift; sourceTree = "<group>"; };
+		84DBD4DA26C95B9C00F8EF1C /* ImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageModel.swift; sourceTree = "<group>"; };
+		84DBD4DD26C95C2F00F8EF1C /* ScanReceiptViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanReceiptViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +82,11 @@
 		8496959C2675AF440048623D /* NotWasted */ = {
 			isa = PBXGroup;
 			children = (
+				849695B6268A8F3B0048623D /* Views */,
+				849695AF26817E450048623D /* ViewModels */,
+				849695AE26817E350048623D /* Services */,
+				849695AD26817E070048623D /* Models */,
 				8496959D2675AF440048623D /* NotWastedApp.swift */,
-				8496959F2675AF440048623D /* ContentView.swift */,
 				849695A12675AF490048623D /* Assets.xcassets */,
 				849695A62675AF490048623D /* Info.plist */,
 				849695A32675AF490048623D /* Preview Content */,
@@ -67,6 +100,50 @@
 				849695A42675AF490048623D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		849695AD26817E070048623D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				849695CC268B293B0048623D /* UserModel.swift */,
+				849695D5268CD5720048623D /* PantryModel.swift */,
+				84DBD4DA26C95B9C00F8EF1C /* ImageModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		849695AE26817E350048623D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				849695CF268C77530048623D /* UserAuthServices.swift */,
+				84DBD4D726C95ACC00F8EF1C /* ReceiptExtractionServices.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		849695AF26817E450048623D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				849695D8268CED860048623D /* LoginViewModel.swift */,
+				842D409226A11975006E050B /* RegistrationViewModel.swift */,
+				84DBD4DD26C95C2F00F8EF1C /* ScanReceiptViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		849695B6268A8F3B0048623D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				849695B7268A8F4F0048623D /* HomeView.swift */,
+				849695BD268B286F0048623D /* PantryView.swift */,
+				849695C0268B288A0048623D /* LogDishView.swift */,
+				849695C3268B28A40048623D /* ScanReceiptView.swift */,
+				849695C6268B290E0048623D /* RecipesView.swift */,
+				849695C9268B291A0048623D /* AccountView.swift */,
+				849695D2268C99FA0048623D /* LoginView.swift */,
+				842D409526A12BD8006E050B /* LandingPageView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +215,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				849695A02675AF440048623D /* ContentView.swift in Sources */,
+				849695BE268B286F0048623D /* PantryView.swift in Sources */,
+				849695C1268B288A0048623D /* LogDishView.swift in Sources */,
+				84DBD4DE26C95C2F00F8EF1C /* ScanReceiptViewModel.swift in Sources */,
+				849695CD268B293B0048623D /* UserModel.swift in Sources */,
+				849695C4268B28A40048623D /* ScanReceiptView.swift in Sources */,
 				8496959E2675AF440048623D /* NotWastedApp.swift in Sources */,
+				849695CA268B291A0048623D /* AccountView.swift in Sources */,
+				849695C7268B290E0048623D /* RecipesView.swift in Sources */,
+				849695B8268A8F500048623D /* HomeView.swift in Sources */,
+				849695D9268CED870048623D /* LoginViewModel.swift in Sources */,
+				842D409326A11975006E050B /* RegistrationViewModel.swift in Sources */,
+				849695D3268C99FA0048623D /* LoginView.swift in Sources */,
+				84DBD4D826C95ACC00F8EF1C /* ReceiptExtractionServices.swift in Sources */,
+				842D409626A12BD8006E050B /* LandingPageView.swift in Sources */,
+				849695D6268CD5730048623D /* PantryModel.swift in Sources */,
+				849695D0268C77540048623D /* UserAuthServices.swift in Sources */,
+				84DBD4DB26C95B9C00F8EF1C /* ImageModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
