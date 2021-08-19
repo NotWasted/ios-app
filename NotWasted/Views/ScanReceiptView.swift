@@ -13,7 +13,7 @@ struct ScanReceiptView: View {
     
     @State var receiptImage = UIImage()
     
-    private var scanReceiptVM: ScanReceiptViewModel?
+    @StateObject private var scanReceiptVM = ScanReceiptViewModel()
     
     var body: some View {
         NavigationView {
@@ -23,6 +23,7 @@ struct ScanReceiptView: View {
             VStack {
                 Button(action: {
                     self.isShowingImagePicker.toggle()
+                    self.scanReceiptVM.uploadStatus = 0
                 }, label:  {
                     VStack {
                         Image(systemName: "camera")
@@ -39,6 +40,21 @@ struct ScanReceiptView: View {
                                     selectedImage: self.$receiptImage)
                 })
                 
+                if self.scanReceiptVM.uploadStatus == 1 {
+                    Text("Image selected")
+                        .foregroundColor(Color.green)
+                }
+                
+                if self.scanReceiptVM.uploadStatus == 2 {
+                    Text("Image uploaded")
+                        .foregroundColor(.yellow)
+                }
+                
+                if self.scanReceiptVM.uploadStatus == 3 {
+                    Text("Pantry updated successfully!")
+                        .foregroundColor(.purple)
+                }
+                
                 
             }
         }.navigationTitle("Scan Receipt")
@@ -51,6 +67,8 @@ struct ImagePickerView: UIViewControllerRepresentable {
     @Binding var isPresented: Bool
     
     @Binding var selectedImage: UIImage
+    
+    //@Binding var scanReceiptVM: ScanReceiptViewModel
     
     func makeCoordinator() -> Coordinator {
         return Coordinator(parent: self)
@@ -73,6 +91,8 @@ struct ImagePickerView: UIViewControllerRepresentable {
             if let selectedImage = info[.originalImage] as? UIImage {
                 print(selectedImage)
                 self.parent.selectedImage = selectedImage
+                //self.parent.scanReceiptVM.receiptImage = selectedImage
+//                self.parent.scanReceiptVM.uploadImage()
             }
             self.parent.isPresented = false
         }
